@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>File validation</title>
+    <link href="style.css">
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <h1> Form Validation</h1>
+    <form onsubmit="return validateForm()">
+        <div class="formvalidation" >
+            Name: <input type="text" id="name" name="Name"><b><span id="errorName"></span></b>
+        </div>
+
+        <div class="formvalidation" id="email">
+            Email: <input type="email" name="Email"><b><span id="error"></span></b>
+        </div>
+
+        <div class="formvalidation" >
+            Password: <input type="password" id="pass1" name="password1"><b><span id="errorPass1"></span></b>
+        </div>
+        <div class="formvalidation" >
+            Confirm Password: <input type="password" id="pass2" name="password2"><b><span class="error"></span></b>
+        </div>
+        <div id="errorP"></div>
+        <input type="button" name="submit" value="submit" id="button" onclick="return validateForm()">
+    </form>
+</body>
+
+</html>
