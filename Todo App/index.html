@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h2 id="list">Todo Application</h2>
-    <form id="form">
-      <input type="text" id="todoA" name="todo" />
-      <input type="button" name="Submit" value="Submit" />
-    </form>
-    <main>
-      <section class="task-list">
-        <h3>Tasks</h3>
-          <div class="content">
-            <input type="text" class="text" value="My todo list" readonly />
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Todo</title>
+      </head>
+
+    <body>
+        <div class="container">
+            <div class="hero-title">
+                <h1>TODO APP</h1>
+            </div>
+            <div class="input-section">
+                <form id="taskForm" method="post">
+                    <input type="text" name="taskNameInput" id="taskNameInput" autocomplete="off" autofocus>
+                    <button type="submit" id="submitBtn">Add Task</button>
+                </form>
+            </div>
+            <div class="tasks-section">
+
+            </div>
         </div>
-        <div class="actions">
-          <button class="edit">Edit</button>
-          <button class="delete">Delete</button>
-        </div>
-      </section>
-    </main>
-    <script src="app.js"></script>
-  </body>
+
+        <script src="app.js"></script>
+    </body>
+
 </html>

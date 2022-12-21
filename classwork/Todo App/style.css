@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    background-color: teal;
+}
+
+html{
+    font-size: 62.5%;
+}
+#container{
+    padding-left: 45rem;
+    padding-top: 2rem;
+}
+
+input{
+    width: 45rem;
+    height: 3rem;
+    border: 2px solid burlywood;
+    border-radius: 4px;
+    background-color: turquoise;
+    font-size: 150%;
+}
+
+#btn-display{
+    width:9rem;
+    height: 3rem;
+    background-color: aqua;
+    font-size: 200%;
+    border: 2px solid indigo;
+    border-radius: 4px;
+}
+
+#heading {
+    padding-left: 65rem;
+    padding-top: 8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 350%;
+}
+
+p{
+    padding-left: 49rem;
+    padding-top: 2rem;
+    font-size: 250%;
+}
+table {
+    background-color: beige;
+}

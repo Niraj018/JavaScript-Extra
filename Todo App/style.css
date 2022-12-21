@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  body {
+    background-color: rgba(0, 128, 128, 0.24);
+  }
+  .container {
+    margin: 5px 10%;
+    background-color: rgba(0, 128, 128, 0.24);
+    padding: 15px 15px;
+    border-radius: 10px;
+  }
+  .tasks-section {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: scroll;
+    margin-top: 8px;
+    -ms-overflow-style: none; /* IE and Edge hide scrollbar*/
+    scrollbar-width: none; /* Firefox hide scrollbar*/
+  }
+  .tasks-section::-webkit-scrollbar {
+    /*hide scrollbar chrome*/
+    display: none;
+  }
+  .task {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: teal;
+    border-radius: 8px;
+    padding: 5px 15px;
+  }
+  .hero-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  .title {
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* IE and Edge hide scrollbar*/
+    scrollbar-width: none; /* Firefox hide scrollbar*/
+    margin-right: 12px;
+  }
+  .title::-webkit-scrollbar {
+    /*hide scrollbar chrome*/
+    display: none;
+  }
+  button {
+    padding: 5px 15px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  button:hover,
+  button:focus,
+  button:active {
+    outline: none;
+    background-color: rgb(148, 36, 36);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #taskForm {
+    display: flex;
+  }
+  #submitBtn {
+    background-color: rgb(15, 155, 15);
+  }
+  #submitBtn:hover,
+  #submitBtn:focus,
+  #submitBtn:active,
+  #submitBtn:focus-visible {
+    background-color: rgb(13, 85, 13);
+  }
+  input {
+    min-height: 15px;
+    flex-grow: 1;
+    border-radius: 5px;
+    margin: 1px 10px 1px 0px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+  }
+  input:focus {
+    border: 1px solid rgb(13, 85, 13);
+    outline: none;
+  }
